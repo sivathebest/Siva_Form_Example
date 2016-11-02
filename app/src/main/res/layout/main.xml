@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Label01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="TextView item, Hello Form"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TVname"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingTop="15dp"
+            android:text="Enter:"/>
+
+        <EditText
+            android:id="@+id/ETname"
+            android:layout_alignBaseline="@id/TVname"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/TVname"
+            android:layout_width="fill_parent"
+            android:text="Name"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVsound"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Radio Button Group"/>
+
+        <RadioGroup
+            android:id="@+id/SndGroup"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:id="@+id/RB01"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Information"/>
+
+            <RadioButton
+                android:id="@+id/RB02"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Confirmation"/>
+
+            <RadioButton
+                android:id="@+id/RB03"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Warning"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TVbutton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Button alert:"/>
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Toast!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout05"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TVpic"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Picture:"/>
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/phone"/>
+    </LinearLayout>
+
+
+</LinearLayout>
