@@ -28,13 +28,14 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:paddingTop="15dp"
-            android:text="Enter your name"/>
+            android:text="Enter your name:"/>
 
         <EditText
             android:id="@+id/ETname"
             android:layout_alignBaseline="@id/TVname"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/TVname"
+            
             android:layout_width="fill_parent"
             android:text="Name"></EditText>
     </LinearLayout>
