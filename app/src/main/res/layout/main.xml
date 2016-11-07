@@ -10,20 +10,25 @@
         android:id="@+id/Label01"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:text="TextView item, Hello Form"/>
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView item, Hello Form Siva"/>
 
     <LinearLayout
         android:id="@+id/LinearLayout02"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
         android:layout_width="fill_parent"
-        android:orientation="horizontal">
+
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/TVname"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:paddingTop="15dp"
-            android:text="Enter:"/>
+            android:text="Enter your name"/>
 
         <EditText
             android:id="@+id/ETname"
@@ -39,6 +44,9 @@
         android:id="@+id/LinearLayout03"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
         android:orientation="vertical">
 
         <TextView
@@ -50,6 +58,8 @@
         <RadioGroup
             android:id="@+id/SndGroup"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
             android:layout_width="wrap_content">
 
             <RadioButton
@@ -77,6 +87,9 @@
         android:id="@+id/LinearLayout04"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
         android:orientation="horizontal">
 
         <TextView
@@ -96,18 +109,20 @@
         android:id="@+id/LinearLayout05"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:orientation="horizontal">
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/TVpic"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="Picture:"/>
+            android:text="Picture"/>
 
         <ImageView
             android:id="@+id/ImageView01"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
             android:src="@drawable/phone"/>
     </LinearLayout>
 
