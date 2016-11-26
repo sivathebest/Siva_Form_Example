@@ -69,7 +69,7 @@ public class FormExample extends AppCompatActivity implements RadioGroup.OnCheck
     /* EditView listeners */
     public void onTextChanged (CharSequence s, int start, int before, int count) {
     	if (et.length() >10) {
-            Toast.makeText(this, "Long Word!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Pretty Long Word!", Toast.LENGTH_SHORT).show();
             Log.d(TAG, "Long Word!");
     	}
     }
